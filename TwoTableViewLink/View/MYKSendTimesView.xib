@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MYKSendTimesView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="112"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BoZ-4Z-9w1">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="lDq-w2-c3U"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0N2-l5-UOE">
+                    <rect key="frame" x="0.0" y="111" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="PpA-yc-spo"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您本周还有一次派送机会" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1b-an-VSU">
+                    <rect key="frame" x="55" y="46" width="191" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lb" translatesAutoresizingMaskIntoConstraints="NO" id="XWA-L4-EiQ">
+                    <rect key="frame" x="16" y="44" width="29" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="YvA-Zd-bcv"/>
+                        <constraint firstAttribute="width" constant="29" id="eyK-e6-YSA"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.99863547086715698" green="0.89923876523971558" blue="0.80230724811553955" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XWA-L4-EiQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="4wY-el-fHf"/>
+                <constraint firstItem="BoZ-4Z-9w1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5Fo-y4-CLc"/>
+                <constraint firstItem="P1b-an-VSU" firstAttribute="leading" secondItem="XWA-L4-EiQ" secondAttribute="trailing" constant="10" id="LNe-Oq-Jip"/>
+                <constraint firstAttribute="bottom" secondItem="0N2-l5-UOE" secondAttribute="bottom" id="LtJ-FQ-EK3"/>
+                <constraint firstItem="P1b-an-VSU" firstAttribute="centerY" secondItem="XWA-L4-EiQ" secondAttribute="centerY" id="ZQe-g8-6hK"/>
+                <constraint firstAttribute="trailing" secondItem="0N2-l5-UOE" secondAttribute="trailing" id="eM8-ei-Jdn"/>
+                <constraint firstItem="BoZ-4Z-9w1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lKJ-B0-0xo"/>
+                <constraint firstItem="0N2-l5-UOE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mtj-md-bZ5"/>
+                <constraint firstAttribute="trailing" secondItem="BoZ-4Z-9w1" secondAttribute="trailing" id="rhk-wR-d1m"/>
+                <constraint firstItem="XWA-L4-EiQ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zHo-Yo-jMv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblSendTimes" destination="P1b-an-VSU" id="A2r-pB-XYn"/>
+            </connections>
+            <point key="canvasLocation" x="-96.5" y="-123"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lb" width="19" height="16"/>
+    </resources>
+</document>

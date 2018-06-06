@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756794F5B5F43C844A2E3428 /* libPods-TwoTableViewLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3062EDFA17D752E91E7822FF /* libPods-TwoTableViewLink.a */; };
+		F02BDF9C207D9CFA0041352F /* MYKRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F02BDF9B207D9CFA0041352F /* MYKRightTableViewCell.m */; };
+		F02BDF9E207D9D7F0041352F /* MYKRightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02BDF9D207D9D7E0041352F /* MYKRightTableViewCell.xib */; };
+		F02BDFA1207D9E6A0041352F /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F02BDFA0207D9E6A0041352F /* FoodModel.m */; };
+		F02BDFA4207DA1BE0041352F /* MYKLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F02BDFA3207DA1BE0041352F /* MYKLeftTableViewCell.m */; };
+		F02BDFA6207DA1D90041352F /* MYKLeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02BDFA5207DA1D90041352F /* MYKLeftTableViewCell.xib */; };
+		F02BDFA9207DB41A0041352F /* vegetable.json in Resources */ = {isa = PBXBuildFile; fileRef = F02BDFA8207DB4190041352F /* vegetable.json */; };
+		F02BDFAC207DB6EF0041352F /* MYKVegatableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F02BDFAB207DB6EF0041352F /* MYKVegatableModel.m */; };
+		F0573152207CB08600FB51BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0573151207CB08600FB51BE /* AppDelegate.m */; };
+		F0573158207CB08600FB51BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0573156207CB08600FB51BE /* Main.storyboard */; };
+		F057315B207CB08700FB51BE /* TwoTableViewLink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0573159207CB08600FB51BE /* TwoTableViewLink.xcdatamodeld */; };
+		F057315D207CB08700FB51BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F057315C207CB08700FB51BE /* Assets.xcassets */; };
+		F0573160207CB08700FB51BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F057315E207CB08700FB51BE /* LaunchScreen.storyboard */; };
+		F0573163207CB08800FB51BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0573162207CB08800FB51BE /* main.m */; };
+		F057316B207CB40B00FB51BE /* MYKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F057316A207CB40B00FB51BE /* MYKHomeViewController.m */; };
+		F0573173207CB62B00FB51BE /* MYKAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0573172207CB62B00FB51BE /* MYKAddressView.m */; };
+		F0573175207CB64F00FB51BE /* MYKAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0573174207CB64F00FB51BE /* MYKAddressView.xib */; };
+		F057317B207CBC8800FB51BE /* MYKSendTimesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F057317A207CBC8800FB51BE /* MYKSendTimesView.m */; };
+		F057317D207CBC9E00FB51BE /* MYKSendTimesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F057317C207CBC9E00FB51BE /* MYKSendTimesView.xib */; };
+		F0AF55D520847026009AEE43 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF55D420847026009AEE43 /* NextViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3062EDFA17D752E91E7822FF /* libPods-TwoTableViewLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoTableViewLink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B5DCE8F06BAD8B9F6AD0CA /* Pods-TwoTableViewLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoTableViewLink.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwoTableViewLink/Pods-TwoTableViewLink.release.xcconfig"; sourceTree = "<group>"; };
+		70E3F22B973385C4E40734B6 /* Pods-TwoTableViewLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoTableViewLink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoTableViewLink/Pods-TwoTableViewLink.debug.xcconfig"; sourceTree = "<group>"; };
+		F02BDF9A207D9CFA0041352F /* MYKRightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKRightTableViewCell.h; sourceTree = "<group>"; };
+		F02BDF9B207D9CFA0041352F /* MYKRightTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKRightTableViewCell.m; sourceTree = "<group>"; };
+		F02BDF9D207D9D7E0041352F /* MYKRightTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYKRightTableViewCell.xib; sourceTree = "<group>"; };
+		F02BDF9F207D9E6A0041352F /* FoodModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		F02BDFA0207D9E6A0041352F /* FoodModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		F02BDFA2207DA1BE0041352F /* MYKLeftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKLeftTableViewCell.h; sourceTree = "<group>"; };
+		F02BDFA3207DA1BE0041352F /* MYKLeftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKLeftTableViewCell.m; sourceTree = "<group>"; };
+		F02BDFA5207DA1D90041352F /* MYKLeftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MYKLeftTableViewCell.xib; sourceTree = "<group>"; };
+		F02BDFA8207DB4190041352F /* vegetable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vegetable.json; sourceTree = "<group>"; };
+		F02BDFAA207DB6EF0041352F /* MYKVegatableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKVegatableModel.h; sourceTree = "<group>"; };
+		F02BDFAB207DB6EF0041352F /* MYKVegatableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKVegatableModel.m; sourceTree = "<group>"; };
+		F057314D207CB08500FB51BE /* TwoTableViewLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoTableViewLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0573150207CB08600FB51BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0573151207CB08600FB51BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0573157207CB08600FB51BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F057315A207CB08600FB51BE /* TwoTableViewLink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwoTableViewLink.xcdatamodel; sourceTree = "<group>"; };
+		F057315C207CB08700FB51BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F057315F207CB08700FB51BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0573161207CB08700FB51BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0573162207CB08800FB51BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0573169207CB40B00FB51BE /* MYKHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKHomeViewController.h; sourceTree = "<group>"; };
+		F057316A207CB40B00FB51BE /* MYKHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKHomeViewController.m; sourceTree = "<group>"; };
+		F0573171207CB62B00FB51BE /* MYKAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKAddressView.h; sourceTree = "<group>"; };
+		F0573172207CB62B00FB51BE /* MYKAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKAddressView.m; sourceTree = "<group>"; };
+		F0573174207CB64F00FB51BE /* MYKAddressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYKAddressView.xib; sourceTree = "<group>"; };
+		F0573177207CB9A700FB51BE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F0573178207CBA1B00FB51BE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F0573179207CBC8800FB51BE /* MYKSendTimesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKSendTimesView.h; sourceTree = "<group>"; };
+		F057317A207CBC8800FB51BE /* MYKSendTimesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKSendTimesView.m; sourceTree = "<group>"; };
+		F057317C207CBC9E00FB51BE /* MYKSendTimesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYKSendTimesView.xib; sourceTree = "<group>"; };
+		F0AF55D320847026009AEE43 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		F0AF55D420847026009AEE43 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F057314A207CB08500FB51BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756794F5B5F43C844A2E3428 /* libPods-TwoTableViewLink.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A35B944B0B926D3A31F729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70E3F22B973385C4E40734B6 /* Pods-TwoTableViewLink.debug.xcconfig */,
+				46B5DCE8F06BAD8B9F6AD0CA /* Pods-TwoTableViewLink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA698697D8A0CB87444300FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3062EDFA17D752E91E7822FF /* libPods-TwoTableViewLink.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F02BDFA7207DA2540041352F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F02BDFA2207DA1BE0041352F /* MYKLeftTableViewCell.h */,
+				F02BDFA3207DA1BE0041352F /* MYKLeftTableViewCell.m */,
+				F02BDFA5207DA1D90041352F /* MYKLeftTableViewCell.xib */,
+				F02BDF9A207D9CFA0041352F /* MYKRightTableViewCell.h */,
+				F02BDF9B207D9CFA0041352F /* MYKRightTableViewCell.m */,
+				F02BDF9D207D9D7E0041352F /* MYKRightTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F0573144207CB08400FB51BE = {
+			isa = PBXGroup;
+			children = (
+				F057314F207CB08500FB51BE /* TwoTableViewLink */,
+				F057314E207CB08500FB51BE /* Products */,
+				25A35B944B0B926D3A31F729 /* Pods */,
+				BA698697D8A0CB87444300FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F057314E207CB08500FB51BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F057314D207CB08500FB51BE /* TwoTableViewLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F057314F207CB08500FB51BE /* TwoTableViewLink */ = {
+			isa = PBXGroup;
+			children = (
+				F057316F207CB5EC00FB51BE /* AppDelegate */,
+				F057316E207CB5D700FB51BE /* Class */,
+				F057316C207CB5C900FB51BE /* View */,
+				F057316D207CB5CD00FB51BE /* Model */,
+				F0573176207CB98800FB51BE /* Common */,
+				F0573170207CB60200FB51BE /* Source */,
+			);
+			path = TwoTableViewLink;
+			sourceTree = "<group>";
+		};
+		F057316C207CB5C900FB51BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0573171207CB62B00FB51BE /* MYKAddressView.h */,
+				F0573172207CB62B00FB51BE /* MYKAddressView.m */,
+				F0573174207CB64F00FB51BE /* MYKAddressView.xib */,
+				F0573179207CBC8800FB51BE /* MYKSendTimesView.h */,
+				F057317A207CBC8800FB51BE /* MYKSendTimesView.m */,
+				F057317C207CBC9E00FB51BE /* MYKSendTimesView.xib */,
+				F02BDFA7207DA2540041352F /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F057316D207CB5CD00FB51BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F02BDF9F207D9E6A0041352F /* FoodModel.h */,
+				F02BDFA0207D9E6A0041352F /* FoodModel.m */,
+				F02BDFAA207DB6EF0041352F /* MYKVegatableModel.h */,
+				F02BDFAB207DB6EF0041352F /* MYKVegatableModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F057316E207CB5D700FB51BE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F0573169207CB40B00FB51BE /* MYKHomeViewController.h */,
+				F057316A207CB40B00FB51BE /* MYKHomeViewController.m */,
+				F0AF55D320847026009AEE43 /* NextViewController.h */,
+				F0AF55D420847026009AEE43 /* NextViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F057316F207CB5EC00FB51BE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F0573150207CB08600FB51BE /* AppDelegate.h */,
+				F0573151207CB08600FB51BE /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F0573170207CB60200FB51BE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F02BDFA8207DB4190041352F /* vegetable.json */,
+				F0573156207CB08600FB51BE /* Main.storyboard */,
+				F057315C207CB08700FB51BE /* Assets.xcassets */,
+				F057315E207CB08700FB51BE /* LaunchScreen.storyboard */,
+				F0573161207CB08700FB51BE /* Info.plist */,
+				F0573162207CB08800FB51BE /* main.m */,
+				F0573159207CB08600FB51BE /* TwoTableViewLink.xcdatamodeld */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F0573176207CB98800FB51BE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F0573177207CB9A700FB51BE /* Header.h */,
+				F0573178207CBA1B00FB51BE /* PrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F057314C207CB08500FB51BE /* TwoTableViewLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0573166207CB08800FB51BE /* Build configuration list for PBXNativeTarget "TwoTableViewLink" */;
+			buildPhases = (
+				56CE179AB83BD822B20359C9 /* [CP] Check Pods Manifest.lock */,
+				F0573149207CB08500FB51BE /* Sources */,
+				F057314A207CB08500FB51BE /* Frameworks */,
+				F057314B207CB08500FB51BE /* Resources */,
+				83937DBB00E467466B60C32D /* [CP] Embed Pods Frameworks */,
+				4195A4D435266487EFAB5EC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoTableViewLink;
+			productName = TwoTableViewLink;
+			productReference = F057314D207CB08500FB51BE /* TwoTableViewLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0573145207CB08500FB51BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Li Peixin";
+				TargetAttributes = {
+					F057314C207CB08500FB51BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F0573148207CB08500FB51BE /* Build configuration list for PBXProject "TwoTableViewLink" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0573144207CB08400FB51BE;
+			productRefGroup = F057314E207CB08500FB51BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F057314C207CB08500FB51BE /* TwoTableViewLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F057314B207CB08500FB51BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02BDF9E207D9D7F0041352F /* MYKRightTableViewCell.xib in Resources */,
+				F02BDFA6207DA1D90041352F /* MYKLeftTableViewCell.xib in Resources */,
+				F0573160207CB08700FB51BE /* LaunchScreen.storyboard in Resources */,
+				F0573175207CB64F00FB51BE /* MYKAddressView.xib in Resources */,
+				F057315D207CB08700FB51BE /* Assets.xcassets in Resources */,
+				F02BDFA9207DB41A0041352F /* vegetable.json in Resources */,
+				F057317D207CBC9E00FB51BE /* MYKSendTimesView.xib in Resources */,
+				F0573158207CB08600FB51BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4195A4D435266487EFAB5EC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoTableViewLink/Pods-TwoTableViewLink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56CE179AB83BD822B20359C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83937DBB00E467466B60C32D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoTableViewLink/Pods-TwoTableViewLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0573149207CB08500FB51BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F057315B207CB08700FB51BE /* TwoTableViewLink.xcdatamodeld in Sources */,
+				F0573173207CB62B00FB51BE /* MYKAddressView.m in Sources */,
+				F0573163207CB08800FB51BE /* main.m in Sources */,
+				F057317B207CBC8800FB51BE /* MYKSendTimesView.m in Sources */,
+				F0AF55D520847026009AEE43 /* NextViewController.m in Sources */,
+				F0573152207CB08600FB51BE /* AppDelegate.m in Sources */,
+				F02BDFAC207DB6EF0041352F /* MYKVegatableModel.m in Sources */,
+				F02BDF9C207D9CFA0041352F /* MYKRightTableViewCell.m in Sources */,
+				F057316B207CB40B00FB51BE /* MYKHomeViewController.m in Sources */,
+				F02BDFA1207D9E6A0041352F /* FoodModel.m in Sources */,
+				F02BDFA4207DA1BE0041352F /* MYKLeftTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0573156207CB08600FB51BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0573157207CB08600FB51BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F057315E207CB08700FB51BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F057315F207CB08700FB51BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0573164207CB08800FB51BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0573165207CB08800FB51BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0573167207CB08800FB51BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E3F22B973385C4E40734B6 /* Pods-TwoTableViewLink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8928TK6AS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/lipeixin/Desktop/TwoTableViewLink/TwoTableViewLink/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/TwoTableViewLink/Source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GuangHe.TwoTableViewLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F0573168207CB08800FB51BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B5DCE8F06BAD8B9F6AD0CA /* Pods-TwoTableViewLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8928TK6AS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/lipeixin/Desktop/TwoTableViewLink/TwoTableViewLink/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/TwoTableViewLink/Source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GuangHe.TwoTableViewLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0573148207CB08500FB51BE /* Build configuration list for PBXProject "TwoTableViewLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0573164207CB08800FB51BE /* Debug */,
+				F0573165207CB08800FB51BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0573166207CB08800FB51BE /* Build configuration list for PBXNativeTarget "TwoTableViewLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0573167207CB08800FB51BE /* Debug */,
+				F0573168207CB08800FB51BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F0573159207CB08600FB51BE /* TwoTableViewLink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F057315A207CB08600FB51BE /* TwoTableViewLink.xcdatamodel */,
+			);
+			currentVersion = F057315A207CB08600FB51BE /* TwoTableViewLink.xcdatamodel */;
+			path = TwoTableViewLink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F0573145207CB08500FB51BE /* Project object */;
+}
